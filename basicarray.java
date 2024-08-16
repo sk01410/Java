@@ -16,7 +16,7 @@ public class basicarray {
             }
     
             float sum = 0;
-            float avg = 0;
+            float avg;
     
             for (int i = 0; i < a.length; i++) {
                 sum += a[i];   
@@ -24,4 +24,4 @@ public class basicarray {
                 avg = sum / 5;
             System.out.println("avg is " + avg);
         }
-    }
+}
