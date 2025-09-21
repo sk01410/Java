@@ -8,13 +8,12 @@ public class pattern1 {
         System.out.println("Enter number of columns:");
         int m = sc.nextInt();
         
-        for (int i = 0; i < n; i++) { // Loop for rows
+        for (int i = 0; i < n; i++) { 
             for (int j = 0; j < m; j++) { // Loop for columns
                 System.out.print("* "); // Print asterisk followed by a space
             }
-            System.out.println(); // Move to the next line after each row
+           System.out.printlin();
         }
-        
-        sc.close(); // Close the scanner
+        sc.close();
     }
 }
