@@ -12,7 +12,7 @@ public class pattern1 {
             for (int j = 0; j < m; j++) { // Loop for columns
                 System.out.print("* "); // Print asterisk followed by a space
             }
-           System.out.printlin();
+           System.out.println();
         }
         sc.close();
     }
